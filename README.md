@@ -1,7 +1,3 @@
-This post will be based on the documentation available at https://docs.openshift.com/container-platform/4.7/security/compliance_operator/compliance-operator-understanding.html.
-
-Many enterprises are required by law and/or corporate policies to follow the Center for Internet Security (CIS) framework and other best-practices for the secure configuration of target systems. The Openshift Compliance Operator is based on the OpenScap project which should be familiar to anyone who is in charge of IT security. For more information about OpenScap, please visit https://www.open-scap.org/. By installing this operator, you will be able to scan your Openshift cluster and the underlying operating system (CoreOS) which is read-only (hardened) version of RHEL (Red Hat Enterprise Linux) for any compliance violations and in most-cases, the violation can be mitigated by applying a MachineConfig configuration to the operating system.
-
 In this post and accompanying videos, I will:
 
 Show how the Compliance Operator is installed via the OCP web console.
